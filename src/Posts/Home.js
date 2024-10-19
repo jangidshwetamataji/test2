@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css'; // Link to the CSS file
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart } from '@fortawesome/free-solid-svg-icons'; // Import the heart icon
-import { useNavigate } from 'react-router-dom'; // Import useNavigate for redirection
+import { useNavigate } from 'react-router-dom'; // Import useNavigate for redirection data
 
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState('');
